@@ -1,107 +1,107 @@
 {
   "semantics": [
     {
-      "label": "Check answer button",
+      "label": "ប៊ូតុងពិនិត្យចម្លើយ",
       "default": "ពិនិត្យចម្លើយ"
     },
     {
-      "label": "Retry button",
+      "label": "ប៊ូតុងសាកម្តងទៀត",
       "default": "សាកម្តងទៀត"
     },
     {
-      "label": "Score explanation text",
+      "label": "អត្ថបទបកស្រាយពិន្ទុ",
       "default": "ចម្លើយត្រូវបាន ១ ពិន្ទុ។ ចម្លើយមិនត្រឹមត្រូវបាត់បង់ ១ ពិន្ទុ។ ពិន្ទុដែលអាចទាបបំផុតគឺ 0។"
     },
     {
       "fields": [
         {
-          "label": "Settings",
+          "label": "ការកំណត់",
           "fields": [
             {
-              "label": "Background image",
-              "description": "Optional. Select an image to use as background for your drag and drop task."
+              "label": "រូបភាពផ្ទៃខាងក្រោយ",
+              "description": "(មិនចាំបាច់) ជ្រើសរូបភាពមួយសម្រាប់ដាក់ខាងក្រោយកិច្ចការអូសទម្លាក់របស់អ្នក"
             },
             {
-              "label": "Task size",
-              "description": "Specify how large (in px) the play area should be."
+              "label": "ទំហំកិច្ចការ",
+              "description": "បញ្ជាក់ទំហំ (ជា px) នៃផ្ទៃកិច្ចការរបស់អ្នក។"
             }
           ]
         },
         {
-          "label": "Task",
-          "description": "Start by placing your drop zones.<br/>Next, place your droppable elements and check off the appropriate drop zones.<br/>Last, edit your drop zone again and check off the correct answers.",
+          "label": "កិច្ចការ",
+          "description": "ផ្តើមដោយដាក់តំបន់ទម្លាក់។<br/>បន្ទាប់មក ដាក់ធាតុទម្លាក់របស់អ្នក ហើយជ្រើសរើស (ធីក) តំបន់ទម្លាក់ទាំងឡាយសម្រាប់ធាតុទម្លាក់នីមួយៗ<br/>ចុងបញ្ចប់ ចូលទៅកែប្រែតំបន់ទម្លាក់នីមួយៗ រួចជ្រើសរើស (ធីក) ចម្លើយត្រឹមត្រូវ។",
           "fields": [
             {
-              "label": "Elements",
-              "entity": "element",
+              "label": "ធាតុ",
+              "entity": "ធាតុ",
               "field": {
-                "label": "Element",
+                "label": "ធាតុ",
                 "fields": [
                   {
-                    "description": "Choose the type of content you would like to add."
+                    "description": "ជ្រើសប្រភេទមាតិកាដែលអ្នកចង់បញ្ចូល។"
                   },
                   {},
                   {},
                   {},
                   {},
                   {
-                    "label": "Select drop zones"
+                    "label": "ជ្រើសរើសតំបន់ទម្លាក់"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "កម្រិតថ្លានៃផ្ទៃខាងក្រោយ"
                   },
                   {
-                    "label": "Infinite number of element instances",
-                    "description": "Clones this element so that it can be dragged to multiple drop zones."
+                    "label": "ធាតុអាចប្រើច្រើនដង",
+                    "description": "ចម្លងធាតុនេះដើម្បីឲ្យវាអាចប្រើបាននៅក្នុងតំបន់ទម្លាក់ច្រើន។"
                   }
                 ]
               }
             },
             {
-              "label": "Drop Zones",
-              "entity": "Drop Zone",
+              "label": "តំបន់ទម្លាក់",
+              "entity": "តំបន់ទម្លាក់",
               "field": {
-                "label": "Drop Zone",
+                "label": "តំបន់ទម្លាក់",
                 "fields": [
                   {
-                    "label": "Label"
+                    "label": "ស្លាក"
                   },
                   {
-                    "label": "Show label"
+                    "label": "បង្ហាញស្លាក"
                   },
                   {},
                   {},
                   {},
                   {},
                   {
-                    "label": "Select correct elements"
+                    "label": "ជ្រើសរើសធាតុត្រឹមត្រូវទាំងអស់"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "កម្រិតថ្លានៃផ្ទៃខាងក្រោយ"
                   },
                   {
-                    "label": "Tips and feedback",
+                    "label": "គន្លឹះ និងមូលវិចារណ៍",
                     "fields": [
                       {
-                        "label": "Tip text"
+                        "label": "អត្ថបទគន្លឹះ"
                       },
                       {
-                        "label": "Message displayed on correct match",
-                        "description": "Message will appear below the task on \"check\" if correct droppable is matched."
+                        "label": "សារត្រូវបង្ហាញសម្រាប់ផ្គូផ្គងត្រឹមត្រូវ",
+                        "description": "សារនឹងត្រូវបង្ហាញនៅខាងក្រោមកិច្ចការបន្ទាប់ពី \"ពិនិត្យចម្លើយ\" ប្រសិនបើធាតុទម្លាក់បានផ្គូផ្គងត្រឹមត្រូវ"
                       },
                       {
-                        "label": "Message displayed on incorrect match",
-                        "description": "Message will appear below the task on \"check\" if the match is incorrect."
+                        "label": "សារត្រូវបង្ហាញសម្រាប់ផ្គូផ្គងមិនត្រឹមត្រូវ",
+                        "description": "សារនឹងត្រូវបង្ហាញនៅខាងក្រោមកិច្ចការបន្ទាប់ពី \"ពិនិត្យចម្លើយ\" ប្រសិនបើធាតុទម្លាក់បានផ្គូផ្គងមិនត្រឹមត្រូវ"
                       }
                     ]
                   },
                   {
-                    "label": "This drop zone can only contain one element",
-                    "description": "Make sure there is only one correct answer for this dropzone"
+                    "label": "តំបន់ទម្លាក់នេះអាចមានតែធាតុមួយទេ",
+                    "description": "ធ្វើយ៉ាងណាឲ្យមានចម្លើយត្រឹមត្រូវតែមួយគត់សម្រាប់តំបន់ទម្លាក់នេះ"
                   },
                   {
-                    "label": "Enable Auto-Align",
-                    "description": "Will auto-align all draggables dropped in this zone."
+                    "label": "បើកមុខងារ តំរៀបដោយស្វ័យប្រវត្តិ",
+                    "description": "នឹងតំរៀបធាតុទម្លាក់ទាំងអស់ដែលបានទម្លាក់ក្នុងតំបន់នេះ។"
                   }
                 ]
               }
@@ -111,26 +111,26 @@
       ]
     },
     {
-      "label": "Overall Feedback",
+      "label": "មូលវិចារណ៍ទូទៅ",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "លំនាំដើម"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
-          "entity": "range",
+          "label": "កំណត់មូលវិចារណ៍តាមបំណងសម្រាប់ចន្លោះពិន្ទុ",
+          "description": "ចុចប៊ូតុង \"បន្ថែមចន្លោះ\" ដើម្បីបន្ថែមចន្លោះពិន្ទុតាមដែលអ្នកចង់បាន។ ឧទា: 0-20% ពិន្ទុខ្សោយ, 21-91% ពិន្ទុមធ្យម, 91-100% ពិន្ទុល្អប្រសើរ!",
+          "entity": "ចន្លោះ",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "ចន្លោះពិន្ទុ"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "មូលវិចារណ៍សម្រាប់ចន្លោះពិន្ទុដែលបានកំណត់",
+                "placeholder": "បញ្ចូលមូលវិចារណ៍"
               }
             ]
           }
@@ -138,75 +138,75 @@
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "ការកំណត់មុខងារ",
+      "description": "ជម្រើសទាំងនេះនឹងឲ្យអ្នកអាចកំណត់មុខងារផ្សេងៗរបស់កិច្ចការអ្នក។",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "អនុញ្ញាត \"សាកម្តងទៀត\""
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "បង្ហាញប៊ូតុង \"ពិនិត្យចម្លើយ\""
         },
         {
-          "label": "Require user input before the solution can be viewed"
+          "label": "ទាមទារឲ្យគេបញ្ចូលចម្លើយសិនមុននឹងអាចមើលចម្លើយត្រឹមត្រូវបាន"
         },
         {
-          "label": "Give one point for the whole task",
-          "description": "Disable to give one point for each draggable that is placed correctly."
+          "label": "ឲ្យពិន្ទុមួយសម្រាប់កិច្ចការទាំងមូល",
+          "description": "បិទមុខងារនេះ ដើម្បីឲ្យពិន្ទុមួយសម្រាប់ធាតុនីមួយៗដែលបានទម្លាក់ក្នុងតំបន់ត្រឹមត្រូវ។"
         },
         {
-          "label": "Apply penalties",
-          "description": "Apply penalties for elements dropped in the wrong drop zones. This must be enabled when the same element(s) are able to be dropped into multiple drop zones, or if there is only one drop-zone. If this is not enabled, learners may match all items to all drop-zones and always receive a full score."
+          "label": "ដាក់ពិន័យ",
+          "description": "ដាក់ពិន័យលើធាតុណាដែលបានទម្លាក់ក្នុងតំបន់មិនត្រឹមត្រូវ។ មុខងារនេះត្រូវតែបើក នៅពេលដែលធាតុដដែលអាចអូសទម្លាក់ក្នុងតំបន់ទន្លាក់ច្រើន ឬប្រសិនបើមានតំបន់ទម្លាក់តែមួយ។ ប្រសិនបើមិនបើកមុខងារនេះទេ គេអាចនឹងផ្គូផ្គងធាតុទាំងអស់ទៅក្នុងតំបន់ទម្លាក់ទាំងអស់ ហើយទទួលបានពិន្ទុពេញរហូត។"
         },
         {
-          "label": "Enable score explanation",
-          "description": "Display a score explanation to user when checking their answers (if the 'Apply penalties' option has been selected)."
+          "label": "បង្ហាញការបកស្រាយពិន្ទុ",
+          "description": "បង្ហាញការបកស្រាយពិន្ទុនៅពេលដែលគេពិនិត្យចម្លើយរបស់គេ (ប្រសិនបើជម្រើស 'ដាក់ពិន័យ' ត្រូវបានដាក់ធីក)។"
         },
         {
-          "label": "Background opacity for draggables",
-          "description": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency"
+          "label": "កម្រិតថ្លានៃផ្ទៃខាងក្រោយសម្រាប់ធាតុទម្លាក់",
+          "description": "តម្លៃដែលអ្នកបញ្ចូលក្នុងប្រអប់ទិន្នន័យនេះនឹងកំណត់កម្រិតថ្លានៃផ្ទៃខាងក្រោយនៃធាតុទម្លាក់ទាំងអស់។ តម្លៃត្រូវចន្លោះពី 0 និង 100, ដែល 0 មានន័យថា ថ្លា ហើយ 100 មានន័យថាមិនថ្លាសោះ"
         },
         {
-          "label": "Drop Zone Highlighting",
-          "description": "Choose when to highlight drop zones.",
+          "label": "បង្ហាញតំបន់ទម្លាក់",
+          "description": "ជ្រើសថាតំបន់ទម្លាក់ត្រូវបង្ហាញនៅពេលណា",
           "options": [
             {
-              "label": "When dragging"
+              "label": "ពេលអូស"
             },
             {
-              "label": "Always"
+              "label": "បង្ហាញរហូត"
             },
             {
-              "label": "Never"
+              "label": "កុំបង្ហាញ"
             }
           ]
         },
         {
-          "label": "Spacing for Auto-Align (in px)"
+          "label": "ចន្លោះសម្រាប់មុខងារតំរៀបដោយស្វ័យប្រវត្តិ (ជា px)"
         },
         {
-          "label": "Enable FullScreen",
-          "description": "Check this option to enable the full screen button."
+          "label": "បើកមុខងារ ពេញអេក្រង់",
+          "description": "យកជម្រើសនេះដើម្បីបង្ហាញប៊ូតុងពេញអេក្រង់។"
         },
         {
-          "label": "Show score points",
-          "description": "Show points earned for each answer. Not available when the 'Give one point for the whole task' option is enabled."
+          "label": "បង្ហាញពិន្ទុ",
+          "description": "បង្ហាញពិន្ទុសម្រាប់ចម្លើយនីមួយៗ។ ប្រើមិនបានទេ នៅពេលដែលបើកមុខងារ 'ឲ្យពិន្ទុមួយសម្រាប់កិច្ចការទាំងមូល'។"
         },
         {
-          "label": "Show Title",
-          "description": "Uncheck this option if you do not want this title to be displayed. The title will only be displayed in summaries, statistics etc."
+          "label": "បង្ហាញចំណងជើង",
+          "description": "កុំយកជម្រើសនេះប្រសិនបើអ្នកមិនចង់បង្ហាញចំណងជើងកិច្ចការ។ ករណីនេះ ចំណងជើងនឹងត្រូវបង្ហាញតែក្នុងទំព័រសង្ខេប ស្ថិតិ ។ល។ "
         }
       ]
     },
     {
-      "label": "Localize",
+      "label": "បកប្រែ",
       "fields": [
         {
-          "label": "Fullscreen label",
+          "label": "ពាក្យសម្រាប់ «ពេញអេក្រង់»",
           "default": "ពេញអេក្រង់"
         },
         {
-          "label": "Exit fullscreen label",
+          "label": "ពាក្យសម្រាប់ «បិទពេញអេក្រង់»",
           "default": "បិទពេញអេក្រង់"
         }
       ]
@@ -257,11 +257,11 @@
     },
     {
       "label": "Assistive technology label for \"Check\" button",
-      "default": "Check the answers. The responses will be marked as correct, incorrect, or unanswered."
+      "default": "ពិនិត្យចម្លើយ។ ចម្លើយនឹងត្រូវបានដាក់សម្គាល់ថាត្រឹមត្រូវ មិនត្រឹមត្រូវ ឬមិនបានឆ្លើយ។"
     },
     {
       "label": "Assistive technology label for \"Retry\" button",
-      "default": "Retry the task. Reset all responses and start the task over again."
+      "default": "សាកធ្វើកិច្ចការម្តងទៀត។ លុបចម្លើយទាំងអស់ ហើយចាប់ផ្តើមកិច្ចការជាថ្មី។"
     }
   ]
 }
